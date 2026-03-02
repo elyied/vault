@@ -1,0 +1,52 @@
+{
+  "name": "vault-diary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium personal diary web app with rich text, image uploads, tags, and search",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "firebase": "10.12.0",
+    "@tiptap/react": "2.6.6",
+    "@tiptap/starter-kit": "2.6.6",
+    "@tiptap/extension-image": "2.6.6",
+    "@tiptap/extension-link": "2.6.6",
+    "@tiptap/extension-placeholder": "2.6.6",
+    "@tiptap/extension-underline": "2.6.6",
+    "@tiptap/extension-text-align": "2.6.6",
+    "@tiptap/extension-highlight": "2.6.6",
+    "@tiptap/extension-task-list": "2.6.6",
+    "@tiptap/extension-task-item": "2.6.6",
+    "@tiptap/pm": "2.6.6",
+    "@tiptap/core": "2.6.6",
+    "lucide-react": "0.378.0",
+    "date-fns": "3.6.0",
+    "jszip": "3.10.1",
+    "file-saver": "2.0.5",
+    "clsx": "2.1.1",
+    "tailwind-merge": "2.3.0",
+    "next-themes": "0.3.0",
+    "sonner": "1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "@types/file-saver": "2.0.7",
+    "typescript": "5.4.5",
+    "tailwindcss": "3.4.3",
+    "postcss": "8.4.38",
+    "autoprefixer": "10.4.19",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.3"
+  }
+}
